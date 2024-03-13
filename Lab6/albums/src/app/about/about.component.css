@@ -1,0 +1,15 @@
+.about-content {
+  font-family: 'Arial', sans-serif;
+    margin: 20px;
+    font-size: 18px;
+  text-align: center;
+  }
+
+  .about-content a {
+    color: #3498db;
+    text-decoration: none;
+  }
+
+  .about-content a:hover {
+    text-decoration: underline;
+  }

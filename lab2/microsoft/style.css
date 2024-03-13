@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    top: 0;
+    font-size: 14px;
+}
+
+header a {
+    margin: 0 10px 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.banner {
+    color: white;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.light {
+    color: black;
+}
+
+button {
+    color: white;
+    background-color: #0067b8;
+    transition: background-color 300ms ease 0s;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #085189;
+}
+
+.galery {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0 40px 0;
+}
+
+.card {
+    width: 20%;
+    margin: 0 10px 0 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h1 {
+    font-size: 25px;
+}
+
+.card p {
+    font-size: medium;
+}
+
+.link {
+    color: #0067b8;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 20px 0 20px;
+}
+
+footer h1 {
+    font-size: 16px;
+    color: #313032;
+}
+
+footer a {
+    font-size: 12px;
+    color: #736f77;
+    margin: 5px 5px 5px 5px;
+}
+
+footer div {
+    margin: 20px 0 20px 0;
+}
+
+footer div div {
+    display: flex;
+    flex-direction: column;
+}
